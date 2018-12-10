@@ -3,22 +3,19 @@ body{
 }
 .ripplebutton{
     font-family: Sans-Serif;
-    font-size: 20px;
-    padding: 1em 2em;
-    margin: 3px;
-    border: 0;
-    outline: 0;
+    padding-top: 40px;
+    text-align: center;
+    font-size: 50px;
     color: white;
     background-color: #2196F3;
-    text-transform: uppercase;
-    border-radius: 0.15em;
+    border-radius: 2px;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
     overflow: hidden;
     position: relative;
-    width: 130px;
-    height: 30px;
+    width: 300px;
+    height: 100px;
 }
-.ripplebutton .ripple{
+.ripple{
     border-radius: 50%;
     background-color: rgba(255, 255, 255, 0.7);
     position: absolute;
